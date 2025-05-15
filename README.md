@@ -29,6 +29,9 @@ A secure web app for collecting user feedback with authentication & encrypted st
 **Submission Success**  
 ![Success Page](./screenshots/success.png)
 
+**Admin Panel**  
+![Admin_panel](./screenshots/admin.png)
+
 ---
 
 ## Installation & Setup

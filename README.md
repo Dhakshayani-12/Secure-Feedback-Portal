@@ -7,11 +7,11 @@ A secure web app for collecting user feedback with authentication & encrypted st
 
 ## Features
 
-- User signup & login with email/password  
-- Password hashing for security  
-- Authenticated feedback submission  
-- Responsive UI with Bootstrap  
-- Feedback stored securely in Firestore
+- User registration and login with email and password
+- Passwords are securely hashed before storing in Firebase Firestore
+- Users can submit feedback through a secure form
+- Admin panel for managing feedback submissions (if applicable)
+- Responsive and user-friendly UI using Bootstrap
 
 ---
 
@@ -34,14 +34,14 @@ A secure web app for collecting user feedback with authentication & encrypted st
 ## Installation & Setup
 
 ```bash
-git clone https://github.com/yourusername/secure-feedback-portal.git
+git clone https://github.com/Dhakshayani-12/Secure-Feedback-Portal.git
 cd secure-feedback-portal
 npm install
 ```
 
 - Setup Firebase: Enable Firestore & Email/Password Authentication  
-- Add your Firebase config in `config/firebase.js`  
-- Start the app locally with `npm start`  
+- Add your service account key file in `config/key.js`  
+- Start the app with `node app.js`  
 - Visit `http://localhost:3000`
 
 ---
@@ -57,10 +57,13 @@ npm install
 
 ## Technologies
 
-- Node.js & Express.js  
-- Firebase Firestore & Auth  
-- Bootstrap 5  
-- bcryptjs (password hashing)
+- Node.js
+- Express.js
+- Firebase Firestore
+- Firebase Authentication
+- bcrypt (for password hashing)
+- EJS templating engine
+- Bootstrap 5
 
 ---
 
